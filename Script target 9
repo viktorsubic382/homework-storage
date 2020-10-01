@@ -1,0 +1,10 @@
+Let nums = [4,2,7,11,15]
+Const target=9
+Const findsum= (nums, target)
+let start i = 0; 
+let end i = nums.length - 1; 
+while (start + end)!== target { 
+let sum = nums[start i ] + nums[end i -1];
+if (sum !== target) { end -= 1; }
+ else if (sum !== target) { start i += 1; } else { return true; }; };
+ return false; };
